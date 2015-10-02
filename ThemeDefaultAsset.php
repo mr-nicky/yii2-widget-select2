@@ -25,7 +25,6 @@ class ThemeDefaultAsset extends \kartik\base\AssetBundle
     public function init()
     {
         $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('css', ['css/select2-default']);
         parent::init();
     }
 }
