@@ -25,7 +25,6 @@ class Select2Asset extends \kartik\base\AssetBundle
     public function init()
     {
         $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('css', ['css/select2']);
         $this->setupAssets('js', ['js/select2.full', 'js/select2-krajee']);
         parent::init();
     }

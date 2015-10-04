@@ -25,7 +25,6 @@ class ThemeKrajeeAsset extends \kartik\base\AssetBundle
     public function init()
     {
         $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('css', ['css/select2-krajee']);
         parent::init();
     }
 }
